@@ -1,0 +1,16 @@
+var anoNascimento = parseInt(prompt("Digite o ano que você nasceu:"));
+var anoAtual = parseInt(prompt("Em que ano estamos:"));
+var idadeUsuario = anoAtual - anoNascimento;
+var mesesIdade = idadeUsuario * 12;
+var semanasIdade = mesesIdade * 4;
+var diasIdade = semanasIdade * 7;
+var horasVividas = diasIdade * 24;
+var minutorVividos = horasVividas * 60 ;
+var segundosVividos = minutorVividos * 60;
+console.log("Sua idade atual é de: " + idadeUsuario);
+console.log("Sua idade em meses é de: " + mesesIdade);
+console.log("Sua idade em semanas é de: " + semanasIdade);
+console.log("Sua idade em dias é de: " + diasIdade);
+console.log("Sua idade em horas é de:" + horasVividas);
+console.log("Sua idade em minutos é de: " + minutorVividos);
+console.log("Sua idade em segundos é de: " + segundosVividos);
